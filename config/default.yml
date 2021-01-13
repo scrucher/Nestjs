@@ -1,0 +1,10 @@
+server: 
+  port: 3000
+
+db:
+  type: 'postres'
+  port: 5432
+  database: 'postgres'
+
+jwt: 
+  expiresIn: 360
